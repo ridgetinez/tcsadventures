@@ -1,0 +1,320 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Motivation & Prerequisites · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="ch1/00bitrep.html" />
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter active" data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Motivation & Prerequisites
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Prefix Free Encodings</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="ch1/00bitrep.html">
+            
+                <a href="ch1/00bitrep.html">
+            
+                    
+                    Representation & Computation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="ch1/01cantor.html">
+            
+                <a href="ch1/01cantor.html">
+            
+                    
+                    Cantor's Diagonalisation Argument
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="ch1/02prefix.html">
+            
+                <a href="ch1/02prefix.html">
+            
+                    
+                    Prefix Free Encodings
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="ch1/03succinct.html">
+            
+                <a href="ch1/03succinct.html">
+            
+                    
+                    Application: Succinct Data Structures
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Motivation & Prerequisites</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="why-should-you-keep-on-reading">Why should you keep on reading?</h1>
+<blockquote>
+<p>&quot;<em>There should be no such thing as boring mathematics.</em>&quot; Edsger Dijkstra.</p>
+<p>&quot;<em>If 10 years from now, when you are doing something quick and dirty, you suddenly visualize that I am looking over your shoulders and say to yourself: &apos;Dijkstra would not have liked this&apos;, well that would be enough immortality for me.</em>&quot; Also Dijkstra.</p>
+</blockquote>
+<h3 id="what-is-it-about-anyway">What is it about anyway?</h3>
+<p>I wouldn&apos;t even call this a book. You&apos;d expect a coherent flow of logical ideas presented in an engaging manner from a book, whereas I can only hope that this collection of pages is at least engaging first,
+informative at a close second. </p>
+<p>The writing here is meant to bridge the gap in UNSW&apos;s Computer Science curriculum, being, an appreciation and practice of all things <em>not</em> coding. In this (not so) fine compendium of notes, you&apos;ll see my journey through a ton of theoretical CS courses being hodgepodged together in an effort to learn as much as I can. Along the way, I&apos;ll be writing my solution to problems, providing code in order to play around with concepts, detailing notes on the stuff
+I find really mind-boggling and threading in little extensions to the material here and there. </p>
+<p><strong>The courses/books I&apos;ll be attacking are:</strong></p>
+<ol>
+<li>Harvard&apos;s CS121, <em>Introduction to Theoretical Computer Science</em> by Boaz Barak</li>
+<li>Carnegie Mellon&apos;s 15-312, <em>Foundations of Programming Languages</em> by Rob Harper</li>
+<li><em>pending, given how I&apos;m going with the two above monsters of resources</em></li>
+</ol>
+<h3 id="who-are-you">Who are you?</h3>
+<p>When writing, I have this image of a first year UNSW CSE student who has just taken COMP1511 and
+MATH1081, and is now wondering when on Earth COMP2521 is going to pick up in difficulty. (I&apos;ll save
+you the trouble, never. COMP1511 was as gruesome as first year gets!) To delve deeper into this reader,
+they either love math, or are indifferent, however can see the benefit. A constant is that you&apos;re
+reasonably proficient in proofs, algorithmic thinking and familiar with all your relations, graphs and probability content from MATH1081. We&apos;ll be building on that MUCH more, and seeing that theory be put into practice in the domain of CS. If you&apos;re not this budding first year student, this book is also for you, as I suspect that you haven&apos;t taken many of the (very little) theory courses at UNSW.</p>
+<p>Hopefully I can make this enjoyable, and challenging so that you can really come out of these notes
+with an appreciation and skill for the mathematical tools used to reason about computation.</p>
+<h3 id="who-am-i">Who am I?</h3>
+<p>I&apos;m Adrian! A second year UNSW CS student (as of writing this in 2018) who really just wants to understand the underpinnings of the field, and push my skills in this special subset of mathematics to the extreme, all while playing around with the concepts practically, by coding and experimenting with the consequences of the many theorems we&apos;ll be encountering. My grades are pretty good if you care about that, and if you want to reach out, send me an email! (it&apos;s my github username @gmail.com)</p>
+<p>Enjoy!</p>
+<blockquote>
+<p><em>I&#x2019;m not driven by avenging my dead family Morty, that was fate, I&#x2019;m driven by finding that McNugget sauce. I want that Mulan McNugget sauce Morty, that&#x2019;s my series arch Morty even if it takes nine seasons. I want my McNugget dipping sauce, Szechuan sauce Morty. That&#x2019;s going to take us all the way to end Morty, nine more seasons Morty. Nine more seasons until I get that dipping Szechuan sauce. 97 more years Morty. I want that McNugget sauce Morty.</em> Rick Sanchez</p>
+</blockquote>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="ch1/00bitrep.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Representation & Computation">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Motivation & Prerequisites","level":"1.1","depth":1,"next":{"title":"Representation & Computation","level":"2.1","depth":1,"path":"ch1/00bitrep.md","ref":"./ch1/00bitrep.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["katex","livereload"],"pluginsConfig":{"katex":{},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2018-07-04T02:24:34.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-07-08T12:26:54.344Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
